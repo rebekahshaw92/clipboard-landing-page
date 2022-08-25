@@ -1,0 +1,62 @@
+$grayishBlue: hsl(201, 11%, 66%);
+$lightBlue: hsl(233, 100%, 69%);
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.computer {
+  width: 80%;
+  margin-top: 20%;
+  @include media-breakpoint-up(lg){
+    width: 100%;
+  }
+}
+
+.computerImg {
+  @include media-breakpoint-up(lg){
+    margin-left: -5%;
+  }
+}
+
+.devices {
+  margin-top: 20%;
+  width: 90%;
+  @include media-breakpoint-up(lg){
+    margin-top: 5%;
+    width: 70%;
+  }
+}
+
+.blacklist {
+  margin-top: 20%;
+}
+
+.google {
+  margin-top: 30%;
+  @include media-breakpoint-up(lg){
+    margin-top: 60%;
+  }
+}
+
+.ibm {
+  margin-top: 15%;
+  @include media-breakpoint-up(lg){
+    margin-top: 60%;
+  }
+}
+
+.clipboard {
+  height: 600px;
+  @include media-breakpoint-up(lg){
+    height: 400px;
+  }
+}

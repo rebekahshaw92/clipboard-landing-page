@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+$font:  'Bai Jamjuree', sans-serif;
+$darkGrayishBlue: hsl(210, 10%, 33%);
+$grayishBlue: hsl(201, 11%, 66%);
+$darkGrayishBlue: hsl(210, 10%, 33%);
+$strongCyan: hsl(171, 66%, 44%);
+
+body {
+    font-family: $font;
+}
+
+.title {
+    font-weight: 600;
+    margin: 5%;
+    margin-top: 15%;
+    font-size: 2.5rem;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+       margin: 0;
+        margin-top: 5%;
+    }
+}
+
+.mainText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        font-size: 18px;
+        margin-left: 28%;
+        margin-right: 28%;
+        margin-top: 3%;
+    }
+}
+
+.searchText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        margin-left: 0 !important;
+        margin-bottom: 2%;
+        font-size: 18px;
+    }
+}
+
+.accessText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+}
+
+.main_text {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 18px;
+    }
+}
+
+
+
+.btn {
+    font-weight: 600;
+}
+
+.mainTitle {
+    margin-top: 30%;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        margin-top: 10%;
+    }
+}
+
+.searchTitle {
+    margin-top: 20%;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: $darkGrayishBlue; 
+    @include media-breakpoint-up(lg){
+        margin-top: 5%;
+        font-size: 2rem;
+    }
+}
+
+.quick {
+    @include media-breakpoint-up(lg){
+        margin-top: 25%;
+    }
+}
+
+.accessTitle {
+    margin-top: 50%;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: $darkGrayishBlue; 
+    @include media-breakpoint-up(lg){
+        margin-top: 20%;
+    }
+}
+
+.superTitle {
+    margin-top: 20%;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: $darkGrayishBlue; 
+    @include media-breakpoint-up(lg){
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+}
+
+.superText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        margin-left: 5%;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+}
+
+.blacklistTitle {
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $darkGrayishBlue; 
+    
+}
+
+
+.blacklistText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+.clipboardTitle {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $darkGrayishBlue; 
+    @include media-breakpoint-up(lg){
+        margin-top: 10%;
+    }
+}
+
+.clipboardText {
+    margin: 5%;
+    font-size: 1.3rem;
+    color: $grayishBlue;
+    font-weight: 400;
+    line-height: 2rem;
+    @include media-breakpoint-up(lg){
+        font-size: 18px;
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+}
+
+
+.menu {
+    li {
+        padding-top: 5%;
+    }
+    a {
+        font-size: 1.3rem;
+        color: $grayishBlue;
+        font-weight: 600;
+        font-size: 18px;
+        &:hover {
+            color: $strongCyan;
+        }
+    }
+}
+
